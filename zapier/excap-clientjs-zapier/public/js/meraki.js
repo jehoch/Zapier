@@ -51,10 +51,10 @@ function authUser(){
 function login(){
     // send the data somewhere like a database
     var data = {};
-    data.firstname = document.getElementById("firstname").value;
-    data.lastname = document.getElementById("lastname").value;
+    // data.firstname = document.getElementById("firstname").value;
+    // data.lastname = document.getElementById("lastname").value;
     data.email = document.getElementById("email").value;
-    data.company = document.getElementById("company").value;
+    // data.company = document.getElementById("company").value;
     // alert("Hello "+data.firstname +"\n"+"Thanks for providing your email: "+data.email);
     data.clientMac = client_mac;
     data.timestamp = new Date().toISOString();
