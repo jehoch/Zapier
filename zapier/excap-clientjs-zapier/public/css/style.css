@@ -29,9 +29,6 @@ body {
 }
 
 #loginForm input[type="text"],
-#loginForm input[type="email"],
-#loginForm input[type="tel"],
-#loginForm input[type="url"],
 #loginForm textarea,
 #loginForm button[type="submit"] {
     font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
@@ -67,9 +64,6 @@ fieldset {
 }
 
 #loginForm input[type="text"],
-#loginForm input[type="email"],
-#loginForm input[type="tel"],
-#loginForm input[type="url"],
 #loginForm textarea {
     width: 100%;
     border: 1px solid #ccc;
@@ -79,9 +73,6 @@ fieldset {
 }
 
 #loginForm input[type="text"]:hover,
-#loginForm input[type="email"]:hover,
-#loginForm input[type="tel"]:hover,
-#loginForm input[type="url"]:hover,
 #loginForm textarea:hover {
     -webkit-transition: border-color 0.3s ease-in-out;
     -moz-transition: border-color 0.3s ease-in-out;
